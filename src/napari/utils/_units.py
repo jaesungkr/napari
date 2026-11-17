@@ -87,7 +87,7 @@ def compute_nice_ticks(
 
     if min_value == max_value:
         return best_ticks, best_decimals
-
+하
     # Decimal needed for small values float imprecision
     # we need to convert to str first, otherwise Decimal just takes the
     # literal float value, imprecision and all
